@@ -2,17 +2,73 @@
 /* stylelint-disable */
 
 @font-face {
-  font-family: 'formular';
-  src: url('../fonts/formular/formular-medium.woff2') format('woff2'),
-       url('../fonts/formular/formular-medium.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Light.woff2') format('woff2'),
+       url('../fonts/Gilroy/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'formular';
-  src: url('../fonts/formular/formular-light.woff2') format('woff2'),
-       url('../fonts/formular/formular-light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+       url('../fonts/Roboto/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+       url('../fonts/Roboto/Roboto-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham/Gotham-Bold.woff2') format('woff2'),
+       url('../fonts/Gotham/Gotham-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham/Gotham-Book.woff2') format('woff2'),
+       url('../fonts/Gotham/Gotham-Book.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik/Rubik-Light.woff2') format('woff2'),
+       url('../fonts/Rubik/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik/Rubik-Regular.woff2') format('woff2'),
+       url('../fonts/Rubik/Rubik-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }

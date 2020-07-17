@@ -2,6 +2,99 @@
 <html lang="en">
     <%- include('block/head') %>
     <body>
+        <%- include('block/header') %>
+        <section class="section section_face">
+            <div class="container">
+                <div class="face owl-carousel">
+                    <div class="face__item">
+                        <div class="face__item-info">
+                            <div class="face__brand">SONY</div>
+                            <div class="face__name">Наушники <span>Sony MDR-Z1R</span></div>
+                            <div class="face__description">Высококачественные наушники премиум-класса с HD-динамиком 70 мм и корпусом, защищающим от резонанса.
+                            </div>
+                            <div class="face__price">12 990 ₽</div>
+                            <div class="face__more">Подробнее</div>
+                        </div>
+                        <div class="face__item-media">
+                            <img src="../media/face/product-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="face__item">
+                        <div class="face__item-info">
+                            <div class="face__brand">SONY</div>
+                            <div class="face__name">Наушники <span>Sony MDR-Z1R</span></div>
+                            <div class="face__description">Высококачественные наушники премиум-класса с HD-динамиком 70 мм и корпусом, защищающим от резонанса.
+                            </div>
+                            <div class="face__price">12 990 ₽</div>
+                            <div class="face__more">Подробнее</div>
+                        </div>
+                        <div class="face__item-media">
+                            <img src="../media/face/product-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="face__item">
+                        <div class="face__item-info">
+                            <div class="face__brand">SONY</div>
+                            <div class="face__name">Наушники <span>Sony MDR-Z1R</span></div>
+                            <div class="face__description">Высококачественные наушники премиум-класса с HD-динамиком 70 мм и корпусом, защищающим от резонанса.</div>
+                            <div class="face__price">12 990 ₽</div>
+                            <div class="face__more">Подробнее</div>
+                        </div>
+                        <div class="face__item-media">
+                            <img src="../media/face/product-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section__title">новинки</div>
+                <%- include('block/catalog') %>
+            </div>
+        </section>
+        <section class="section section_tovar">
+            <div class="container">
+                <div class="section__title">ассортимент</div>
+                <%- include('block/product') %>
+            </div>
+        </section>
+        <section class="section section_pay">
+            <div class="container">
+                <div class="section__title">наш сервис</div>
+                <div class="pay">
+                    <div class="pay__item">
+                        <div class="pay__name">Доставка</div>
+                        <div class="pay__description">
+                            <p>Доставим быстро, в целости и сохранности.</p>
+                            <p>От 2 до 4 часов по Москве. От 3 до 4 дней по России.</p>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__name">Оплата</div>
+                        <div class="pay__description">
+                            <p>Оплата наличными  /  Банковской картой</p>
+                            <p>Безналичный расчет  /  Наложенный платеж</p>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__name">Наш офис</div>
+                        <div class="pay__description">
+                            <p>г. Москва, 125239</p>
+                            <p>Фармацевтический проезд 3</p>
+                        </div>
+                    </div>
+                    <div class="pay__item">
+                        <div class="pay__name">Гарантия</div>
+                        <div class="pay__description">
+                            <p>Гарантию от производителя или магазина на все товары.</p>
+                            <p>Обмен или возврат в течении 14 дней со дня покупки.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('block/footer') %>
         <%- include('block/script') %>
     </body>
 </html>
