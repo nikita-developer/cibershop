@@ -92,6 +92,10 @@ button,
 input,
 select {
   overflow: visible;
+
+  &:focus {
+      outline: none;
+  }
 }
 
 button,
@@ -224,4 +228,8 @@ html [type="button"],
 [type="submit"] {
   cursor: pointer;
   appearance: button;
+}
+
+input::placeholder {
+    color: #000;
 }

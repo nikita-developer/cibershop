@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('block/head') %>
+    <body>
+        <%- include('block/header') %>
+        <section class="section section_product-info">
+            <div class="container">
+                <div class="product-info">
+                    <div class="product-info__media">
+                        <div class="product-info__media-home">
+                            <img src="../media/product-info/img-1.png" alt="">
+                        </div>
+                        <div class="product-info__media-box">
+                            <div class="product-info__media-item product-info__media-item_active">
+                                <img src="../media/product-info/img-2.png" alt="">
+                            </div>
+                            <div class="product-info__media-item">
+                                <img src="../media/product-info/img-3.png" alt="">
+                            </div>
+                            <div class="product-info__media-item">
+                                <img src="../media/product-info/img-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info__info">
+                        <div class="breadcrumbs">
+                            <div class="breadcrumbs__box">
+                                <a href="#" class="breadcrumbs__item">главная</a>
+                                <span> / </span>
+                                <a href="#" class="breadcrumbs__item">каталог</a>
+                                <span> / </span>
+                                <a href="#" class="breadcrumbs__item">колонки</a>
+                            </div>
+                        </div>
+                        <div class="product-info__title">JBL Charge 4</div>
+                        <div class="product-info__price">12 999 ₽</div>
+                        <div class="product-info__subtitle">Портативный динамик</div>
+                        <div class="product-info__description">Представляем портативную акустическую систему JBL Charge 4 с функцией Bluetooth, мощным звуком и возможностью зарядки внешних устройств. </div>
+                        <div class="product-info__add">
+                            <div class="product-info__btn">купить</div>
+                            <div class="product-info__btn">в корзину</div>
+                        </div>
+                        <div class="product-info__pay">
+                            <div class="product-info__pay-head">
+                                <div class="product-info__pay-item product-info__pay-item_active">доставка</div>
+                                <div class="product-info__pay-item">оплата</div>
+                                <div class="product-info__pay-item">гарантия</div>
+                            </div>
+                            <div class="product-info__pay-description">
+                                Представляем портативную акустическую систему JBL Charge 4 с функцией Bluetooth, мощным звуком и возможностью зарядки внешних устройств. Представляем портативную акустическую систему JBL Charge 4 с функцией Bluetooth, мощным звуком и возможностью зарядки внешних устройств.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section__title section__title_left">рекомендуем</div>
+                <%- include('block/rek') %>
+            </div>
+        </section>
+        <%- include('block/footer') %>
+        <%- include('block/script') %>
+    </body>
+</html>

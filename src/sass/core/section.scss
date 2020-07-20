@@ -29,15 +29,23 @@
     &_tovar {
         padding-top: 0;
     }
+
+    &_product-info {
+        padding-bottom: 0;
+    }
 }
 
 .section__title {
-    margin-bottom: 95px;
+    margin-bottom: 85px;
     font-family: "Gotham", sans-serif;
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
+
+    &_left {
+        text-align: left;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -66,6 +74,10 @@
 
         &_tovar {
             padding-top: 0;
+        }
+
+        &_product-info {
+            padding-bottom: 0;
         }
     }
 
@@ -97,6 +109,10 @@
 
         &_pay {
             padding-top: 0;
+        }
+
+        &_product-info {
+            padding-bottom: 0;
         }
 
         &_tovar {

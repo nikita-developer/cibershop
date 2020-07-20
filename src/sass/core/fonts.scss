@@ -37,7 +37,7 @@
     font-family: 'Roboto';
     src: url('../fonts/Roboto/Roboto-Black.woff2') format('woff2'),
        url('../fonts/Roboto/Roboto-Black.woff') format('woff');
-    font-weight: 800;
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -54,6 +54,14 @@
     src: url('../fonts/Gotham/Gotham-Book.woff2') format('woff2'),
        url('../fonts/Gotham/Gotham-Book.woff') format('woff');
     font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham/Gotham-Black.woff2') format('woff2'),
+       url('../fonts/Gotham/Gotham-Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
 }
 
