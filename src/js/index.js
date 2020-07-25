@@ -25,9 +25,17 @@ $(document).ready(function() {
 
     $('.rek').owlCarousel({
         loop: true,
-        margin: 30,
         autoHeight: true,
-        items: 3
+        responsive: {
+            320: {
+                margin: 15,
+                items: 2,
+            },
+            768: {
+                margin: 30,
+                items: 3,
+            }
+        }
     });
 
     if ($(window).width() <= 1024) {

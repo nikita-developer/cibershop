@@ -76,3 +76,9 @@
     font-size: 18px;
     color: #000;
 }
+
+@media (max-width: 480px) {
+    .rek__media {
+        height: 140px;
+    }
+}
